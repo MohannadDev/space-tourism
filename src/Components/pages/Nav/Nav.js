@@ -41,19 +41,6 @@ const Nav = () => {
         clearInterval(CheckPage);
       }
     }, 100);
-
-    // document.querySelector("#root").lastChild.onclick = () => {
-    //   setOpen(!isOpen);
-    // } else {
-    // setTimeout(() => {
-    //   document.querySelector(".page").onclick = () => {
-    //     if (isOpen) {
-    //       toggleHundler();
-    //       console.log(13,isOpen)
-    //     }
-    //   };
-    // }, 1000);
-    // }
   }
   if (isOpen) {
     linksClass = "Links showLinks";
@@ -61,24 +48,26 @@ const Nav = () => {
     linksClass = "Links hideLinks";
   }
   const location = useLocation();
+  let ariaCommandNameAttr = {'aria-command-name': 'button'}
+
   return (
     <div className="Nav">
       <div className="Logo">
         <img src={Logo} alt="Logo" />
       </div>
       <div className="Hamburger z-20 sm:hidden">
-        <Hamburger
+        <Hamburger {...ariaCommandNameAttr}
           toggled={isOpen}
           color="#D0D6F9"
           size={20}
           toggle={toggleHundler}
         />
       </div>
-
+ 
       <div className={linksClass}>
         <ul>
           <li
-            className={location.pathname === "/space-tourism" ? "active" : null}
+            className={location.pathname === "/space-tourism" || location.pathname === "/space-tourism/" ? "active" : null }
           >
             <Link to="/space-tourism">
               {!isTablet && "00"}
