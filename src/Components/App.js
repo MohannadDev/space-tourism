@@ -1,6 +1,4 @@
 import React, { Suspense, lazy } from "react";
-import Favicon from "react-favicon";
-// import Home from "./pages/Home";
 import Nav from "./pages/Nav/Nav";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Data from "./pages/data.json";
@@ -36,7 +34,6 @@ const App = () => {
 
   return (
     <>
-      <Favicon url="/assets/favicon.ico" />
       <Nav />
       <Suspense
         fallback={
