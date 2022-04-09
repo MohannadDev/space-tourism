@@ -29,7 +29,6 @@ const Nav = () => {
   }
 
   if (isOpen) {
-    // if (document.querySelector(".page")) {
     const CheckPage = setInterval(() => {
       if (document.querySelector(".page")) {
         document.querySelector(".page").onclick = () => {
