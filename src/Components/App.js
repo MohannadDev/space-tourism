@@ -36,7 +36,7 @@ const App = () => {
 
   return (
     <>
-      <Favicon url="/favicon.ico" />
+      <Favicon url="/assets/favicon.ico" />
       <Nav />
       <Suspense
         fallback={
