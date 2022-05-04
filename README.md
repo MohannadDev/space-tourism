@@ -51,5 +51,6 @@ Users should be able to:
 
 ## Author
 
+- Linkedin - [@mohanad-aldardiry](https://www.linkedin.com/in/mohanad-aldardiry-175614239/)
 - Frontend Mentor - [@Mohannad-AlDardiri](https://www.frontendmentor.io/profile/Mohannad-AlDardiri)
 - Twitter - [@MohanadDardiry](https://www.twitter.com/MohanadDardiry)
