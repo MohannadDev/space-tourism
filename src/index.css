@@ -12,6 +12,16 @@ body {
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
+/* Removes the horizontal scrollbar  */
+&::-webkit-scrollbar:horizontal {
+  height: 0;
+  width: 0;
+  display: none;
+}
+&::-webkit-scrollbar-thumb:horizontal {
+  display: none;
+}
+
 @layer components {
   #root {
     @apply text-white bg-black font-bellefair h-full min-h-screen transition flex flex-col;
@@ -236,6 +246,7 @@ body {
   }
   @keyframes showLinks {
     0% {
+      display: block;
       right: -100%;
     }
     100% {
@@ -247,6 +258,7 @@ body {
       right: 0;
     }
     100% {
+      display: none;
       right: -100%;
     }
   }
