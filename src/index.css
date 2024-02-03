@@ -5,6 +5,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden !important;
+}
+#root {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
 @layer components {
   #root {
     @apply text-white bg-black font-bellefair h-full min-h-screen transition flex flex-col;
