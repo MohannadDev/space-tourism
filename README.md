@@ -11,7 +11,6 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -49,8 +48,4 @@ Users should be able to:
 
 - [web dev](https://web.dev/aria-name/?utm_source=lighthouse&utm_medium=lr) - This helped me for accessibility reason. I liked this article and will use it going forward.
 
-## Author
 
-- Linkedin - [@mohanad-aldardiry](https://www.linkedin.com/in/mohanad-aldardiry-175614239/)
-- Frontend Mentor - [@Mohannad-AlDardiri](https://www.frontendmentor.io/profile/Mohannad-AlDardiri)
-- Twitter - [@MohanadDardiry](https://www.twitter.com/MohanadDardiry)
