@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space-tourism/static/css/main.867885c7.css",
+    "main.css": "/space-tourism/static/css/main.7758530d.css",
     "main.js": "/space-tourism/static/js/main.cfaace72.js",
     "static/js/366.9e8b53c6.chunk.js": "/space-tourism/static/js/366.9e8b53c6.chunk.js",
     "static/js/453.53c67d13.chunk.js": "/space-tourism/static/js/453.53c67d13.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/background-destination-mobile.jpg": "/space-tourism/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/space-tourism/index.html",
     "static/media/logo.svg": "/space-tourism/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.867885c7.css.map": "/space-tourism/static/css/main.867885c7.css.map",
+    "main.7758530d.css.map": "/space-tourism/static/css/main.7758530d.css.map",
     "main.cfaace72.js.map": "/space-tourism/static/js/main.cfaace72.js.map",
     "366.9e8b53c6.chunk.js.map": "/space-tourism/static/js/366.9e8b53c6.chunk.js.map",
     "453.53c67d13.chunk.js.map": "/space-tourism/static/js/453.53c67d13.chunk.js.map",
@@ -31,7 +31,7 @@
     "793.00e1d77d.chunk.js.map": "/space-tourism/static/js/793.00e1d77d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.867885c7.css",
+    "static/css/main.7758530d.css",
     "static/js/main.cfaace72.js"
   ]
 }
