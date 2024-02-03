@@ -90,12 +90,13 @@ body {
     @apply text-midnightExpress sm:text-2xl md:text-3xl;
   }
   .Links {
+    @apply h-screen absolute top-0 z-10;
     width: 65%;
     right: -100%;
-    @apply h-screen absolute top-0 z-10;
   }
   @media (max-width: 639px) {
     .Links {
+      display: none;
       backdrop-filter: blur(10px);
     }
   }
@@ -165,12 +166,14 @@ body {
   }
 
   .showLinks {
+    display: block;
     animation: showLinks 0.3s forwards;
     animation-iteration-count: 1;
   }
   .hideLinks {
     animation: hideLinks 0.3s forwards;
     animation-iteration-count: 1;
+
   }
   .Links ul {
     @apply w-full absolute sm:static flex flex-col sm:flex-row sm:justify-around;
@@ -246,7 +249,6 @@ body {
   }
   @keyframes showLinks {
     0% {
-      display: block;
       right: -100%;
     }
     100% {
@@ -258,8 +260,9 @@ body {
       right: 0;
     }
     100% {
-      display: none;
       right: -100%;
+      display: none;
+
     }
   }
 
