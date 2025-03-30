@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://github.com/Mohannad-AlDardiri/space-tourism)
-- Live Site URL: [Click here](https://mohannad-aldardiri.github.io/space-tourism)
+- Solution URL: [Click here](https://github.com/buildwithmohanad/space-tourism)
+- Live Site URL: [Click here](https://buildwithmohanad.github.io/space-tourism)
 
 ## My process
 
